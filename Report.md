@@ -45,7 +45,7 @@ Cooperatives (co-ops) are one type of property ownership structure in which buil
 The dataset contains data from between 2009 and 2012 for a subset of cooperatives in NYC. Some years' data is missing, and different buildings and different years have different numbers of comparison properties. 
 
 
-Overview
+Analysis
 --------------------------------------------------------
 ### 1. Price Trend of co-ops.
 
@@ -303,7 +303,7 @@ a
 
 ```
 ##       [,1]
-## [1,] 451.1
+## [1,] 395.2
 ```
 
 ```r
@@ -313,7 +313,7 @@ b
 
 ```
 ##       [,1]
-## [1,] 294.3
+## [1,] 231.7
 ```
 
 
