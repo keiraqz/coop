@@ -13,9 +13,13 @@ coop <- read.csv("coop_valuations.csv", header = T)
 Summary
 --------------------------------------------------------
 This report contains some basic analysis of the coop_valuations.csv dataset. It investigates:
+
 1) The market value per sqft change based on different School District. Result shows that co-ops in School District 1, 2 and 3, especially District 2, have steady value increase.
+
 2) Comparable property 3 has been included into the dataset since Year 2012. However, there is no significant impact from this fact alone.
+
 3) Location, income of the property and expense of the property are major factors to consider when choosing a comparable property. Then year built and gross sqft can also be taken into account
+
 4) Expenses of the co-ops were not considered before Year 2012. It is included into the dataset in Year 2012 and there is a significant relationship between co-ops' expense and their comparable properties' expense.
 
 
