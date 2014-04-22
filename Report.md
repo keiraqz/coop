@@ -303,7 +303,7 @@ a
 
 ```
 ##       [,1]
-## [1,] 395.2
+## [1,] 391.1
 ```
 
 ```r
@@ -312,8 +312,8 @@ b
 ```
 
 ```
-##       [,1]
-## [1,] 231.7
+##      [,1]
+## [1,]  254
 ```
 
 
@@ -326,5 +326,9 @@ Based on the analysis, location and gross income per sqft of the co-op have impa
 Challenges and Future Work
 --------------------------------------------------------
 A larger dataset will be helpful to produce more accurate analysis.
+
+Transform predictors can be helpful to discover non-linear relationships between co-ops and their comparable properties (ie. Polynomial transformation of gross sqft).
+
+Considering percetage increased of market value throughout the years instead of raw market value can be helpful to discover other trends.
 
 There are high correlations between predictors (ie. est expense vs. expense per sqft, gross income vs. net operating income), which makes the variable selection harder. Better understanding of the dataset or the background of the data will be helpful.
